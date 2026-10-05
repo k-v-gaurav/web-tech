@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Learning Portal</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #abd2ff;
+            margin:20px;
+        }
+
+        header{
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1{
+            color: #001bce;
+        }
+
+        h2{
+            color: #001bce;
+        }
+
+        h3{
+            color: #00ba19;
+        }
+
+        nav{
+            background-color: #333333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a{
+            color: #ffffff;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        article{
+            background-color: #f1f1f1;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        ul,
+        ol {
+            line-height: 1.8;
+        }
+
+        img {
+            width: 300px;
+            border: 3px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 70%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        input,
+        select {
+            padding: 7px;
+            margin: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border: none;
+        }
+
+        span {
+            color: green;
+            font-weight: bold;
+        }
+
+        video {
+            border: 2px solid black;
+        }
+
+        audio {
+            margin: 10px;
+        }
+
+        iframe {
+            border: 2px solid black;
+        }
+
+        footer {
+            background-color: #333333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: red;">student learning</h1>
+        <p style="color: purple;">
+            Welcome to the<strong> Student Learning Portal</strong>
+        </p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#students">Students</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <main id="home">
+
+
+
+        <article>
+            <h2 style="color: orange;">About the Portal</h2>
+            <p>
+                This portal helps students learn
+                <strong>HTML</strong>, programming and
+                other technical subjects.
+            </p>
+
+            <p>
+                Learning requires <em>practice and consistency</em>.
+                <br>
+                Keep learning every day!
+            </p>
+        </article>
+
+
+
+        <article>
+            <h2>Learning Illustrations</h2>
+            <img
+                src="https://via.placeholder.com/300"
+                alt="Student learning illustration">
+        </article>
+
+
+
+        <article id="courses">
+            <h2>Available Courses</h2>
+            <div>
+                <h3>Popular Courses</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+
+
+
+            <div>
+                <h3>Learning steps</h3>
+                <ol>
+                    <li>Learn the basics</li>
+                    <li>Practice examples</li>
+                    <li>Build projects</li>
+                    <li>Complete assignments</li>
+                </ol>
+            </div>
+        </article>
+        
+
+
+        <article id="students">
+            <h2>Student Performance</h2>
+
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>Arjun</td>
+                    <td>HTML</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>Sunil</td>
+                    <td>CSS</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>Ramu</td>
+                    <td>JavaScript</td>
+                    <td>78</td>
+                </tr>
+            </table>
+        </article>
+
+
+
+        <article id="contact">
+            <h2>Student Registration</h2>
+
+            <form>
+                <label for="name">Student name:</label>
+                <input type="text" id="name" name="name">
+
+                <br><br>
+
+                <label for="email">Student Email:</label>
+                <input type="email" id="email" name="email">
+
+                <br><br>
+
+                <label for="course">Select course:</label>
+                <select id="course" name="course">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                </select>
+
+                <br><br>
+
+                <button type="submit">Register</button>
+
+            </form>
+        </article>
+
+
+
+        <article>
+            <h2>Important notice</h2>
+            <p>Registration is <span>open</span> for all students.</p>
+        </article>
+
+
+
+        <article>
+            <h2>Simple SVG graphics</h2>
+            <svg width="200" height="200">
+                <circle cx="100" 
+                    cy="100" 
+                    r="80"
+                    fill="yellow">
+                </circle>
+
+                <rect x="50" 
+                    y="50" 
+                    width="100" 
+                    height="100"
+                    fill="red"
+                    stroke="black">
+                </rect>
+            </svg>
+        </article>
+
+
+
+              <article>
+            <h2>Canvas</h2>
+            <canvas
+                width="300"
+                height="150"
+                style="border: 3px solid red;">
+            </canvas>
+
+            <p>
+                Canvas is normally drawn using JavaScript.
+                Without JavaScript, the canvas will remain blank.
+            </p>
+        </article>
+
+
+
+        <article>
+            <h2>Learning Video</h2>
+            <video width="400" controls>
+                <source
+                    src="link"
+                    type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </article>
+
+
+
+        <article>
+            <h2>Learning Audio</h2>
+            <audio controls>
+                <source
+                    src="link"
+                    type="audio/mpeg">Your browser does not support audio.
+            </audio>
+        </article>
+
+
+
+        <article>
+            <h2>External Website</h2>
+            <iframe
+                src="link"
+                width="500"
+                height="200"
+                title="Example Website">
+            </iframe>
+        </article>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>
+            © 2026 Student Learning Portal
+        </p>
+
+        <p>
+            Contact us:
+            <a href="mailto:student@example.com">
+                student@example.com
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
