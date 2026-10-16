@@ -15,3 +15,33 @@ tbody tr:nth-child(odd){
 tbody tr:hover{
     background-color: #d1d1d1;
 }
+nav{
+    color: rgba(239, 135, 60, 0.874);
+    text-align: center;
+    padding:20px;
+}
+nav a{
+    padding: 10px 5px;
+}
+nav a:hover{
+    background-color: #d1d1d1;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card{
+    width: 30%;
+    border: 1px solid #ccc;
+    padding:15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px  rgba(215, 11, 11, 0.616);
+    transition: 0.5s;
+}
